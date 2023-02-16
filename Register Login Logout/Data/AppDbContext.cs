@@ -10,7 +10,6 @@ namespace Register_Login_Logout.Data
         {
 
         }
-        public DbSet<Employees> employees { get; set; }
-        public DbSet<Register_Login_Logout.Models.Employees> Employees { get; set; }
+        public DbSet<Employees> Employees { get; set; }
     }
 }
